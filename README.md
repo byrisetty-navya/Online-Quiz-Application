@@ -1,71 +1,46 @@
-###Online Quiz Application
-##📌 Project Overview
+# 📝 Online Quiz Application
 
-The Online Quiz Application is a frontend web project developed using HTML, CSS, and JavaScript. It allows users to answer multiple-choice questions, view instant feedback for correct and incorrect answers, track their score, and restart the quiz. Questions are displayed in a randomized order to enhance user engagement.
+An interactive **Online Quiz Application** developed using **HTML, CSS, and JavaScript**.  
+The application allows users to answer multiple-choice questions, calculates scores in real time, and provides instant feedback.
 
-##🛠️ Technologies Used
+## 📌 Features
+- Multiple-choice quiz questions
+- Real-time score calculation
+- Next and Previous question navigation
+- Visual feedback for correct and incorrect answers
+- Randomized question order
+- Restart quiz functionality
+- Responsive user interface
 
-HTML5
+## 🛠️ Technologies Used
+- **HTML** – Structure of the quiz interface  
+- **CSS** – Styling and responsive layout  
+- **JavaScript** – Quiz logic, scoring, and interactivity  
 
-CSS3
 
-JavaScript
+## ⚙️ How It Works
+- Questions are stored as JavaScript objects.
+- One question is displayed at a time with multiple options.
+- User selections are validated instantly.
+- The score is updated dynamically using JavaScript.
+- Final score is displayed at the end of the quiz.
 
-##🎯 Features
-
-Multiple-choice quiz questions
-
-Randomized question order on every attempt
-
-Instant visual feedback for correct and incorrect answers
-
-Score calculation at the end of the quiz
-
-Restart quiz functionality
-
-Simple and user-friendly interface
-
-##⚙️ How the Application Works
-
-The quiz loads a set of predefined questions using JavaScript.
-
-Questions are shuffled randomly before the quiz starts.
-
-Users select one option for each question.
-
-The application highlights correct answers in green and incorrect answers in red.
-
-The score is calculated and displayed after the final question.
-
-Users can restart the quiz to attempt it again with a new question order.
-
-##📂 Project Structure
-Online-Quiz-Application/
+## 📂 Project Structure
+online-quiz/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 
-##▶️ How to Run the Project
+## 🚀 How to Run the Project
+1. Download or clone the repository  
+2. Open `index.html` in any modern web browser  
+3. Start answering the quiz questions  
 
-Download or clone the project repository.
-
-Open the project folder.
-
-Double-click on index.html or open it in any modern web browser.
-
-The quiz will start automatically.
-
-##🚀 Future Enhancements
-
-Add a timer for each question
-
-Store scores using browser local storage
-
-Make the application fully responsive for mobile devices
-
-Add more question categories
-##📄 License
-
-This project is created for educational purposes and is free to use and modify.
+## 📈 Future Enhancements
+- Timer for each question
+- Category-based quizzes
+- Question database using API
+- Leaderboard and score history
+- User authentication
